@@ -1,0 +1,37 @@
+/* Shayan IPTC Embed Styles for Admin Area */
+div.sh-iptc-embed-button-general {
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: fit-content;
+    line-height: initial;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: 20px;
+}
+div.sh-iptc-embed-button {
+    background-color: green;
+}
+
+div.sh-iptc-embed-button:hover {
+    opacity: 90%;
+}
+
+div.sh-wait-for-response {
+    background-color: floralwhite;
+    color: #1d2327;
+}
+
+div.sh-wait-for-response:before {
+    content: "";
+    background-image: url("wpspin_light.gif");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+div.sh-grey-out {
+    background-color: silver;
+}
